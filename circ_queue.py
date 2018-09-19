@@ -2,7 +2,7 @@
 Circular Queue
 '''
 import pdb
-class circ_q:
+class Circ_q:
 	def __init__(self,len):
 		self.lmt=len-1
 		self.queue=[]
@@ -54,7 +54,7 @@ class circ_q:
 					
 		print self.queue
 					
-q=circ_q(4)
+q=Circ_q(4)
 q.enqueue('a')
 q.enqueue('v')
 q.enqueue('c')
